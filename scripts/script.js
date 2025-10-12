@@ -52,7 +52,7 @@ $(document).ready(function() {
                 if (gs.doubleClick != true) {
                     gs.doubleClick = true;
                     $('#bar').text('Double Fortunes');
-                    $('#fortune-img').attr('src', 'assets/crackedFortune.png');
+                    $('#fortune-img').attr('src', 'images/crackedFortune.png');
                     $('#fortune-button').css('width', '50rem');
                     
                     //for 30 seconds doubleClick is true
@@ -60,7 +60,7 @@ $(document).ready(function() {
                         gs.doubleClick = false;
                         gs.barWidth = 0;
                         $('#bar').text('');
-                        $('#fortune-img').attr('src', 'assets/fortuneCookie.png');
+                        $('#fortune-img').attr('src', 'images/fortuneCookie.png');
                         $('#fortune-button').css('width', '25rem');
                         console.log('Double fortune bonus ended.');
                     }, 30000);
